@@ -61,7 +61,7 @@
               </figure>
               <div class="text">
                 <span class="text-uppercase">Collections</span>
-                <h3>Women</h3>
+                <h3>Kadın</h3>
               </div>
             </a>
           </div>
