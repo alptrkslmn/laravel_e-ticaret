@@ -44,8 +44,19 @@
                         <ul class="dropdown">
                             @if (!empty($categories) && $categories->count() > 0)
                                 @foreach ($categories as $category)
-                                <li><a href="#">{{$category->name}}</a></li>
-                                @endforeach
+                                    @if ($category->cat_ust == null)
+                                        <li class="has-children">
+                                            <a href="#">{{$category->name}}</a>
+                                            <ul class="dropdown">
+                                                    @foreach ($categories as $subcategory)
+                                                        @if ($subcategory->cat_ust == $category->id)
+                                                            <li><a href="#">{{$subcategory->name}}</a></li>
+                                                        @endif
+                                                @endforeach
+                                            </ul>
+                                        </li>
+                               @endif
+                              @endforeach
                             @endif
                             </ul>
                         </li>
