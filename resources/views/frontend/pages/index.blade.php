@@ -179,10 +179,10 @@
             <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img-fluid rounded"></a>
           </div>
           <div class="col-md-12 col-lg-5 text-center pl-md-5">
-            <h2><a href="#">Tüm ürünlerimizde 50%'ye varan indirimler'</a></h2>
-            <p class="post-meta mb-4">By <a href="#">Carl Smith</a> <span class="block-8-sep">&bullet;</span> September 3, 2018</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste dolor accusantium facere corporis ipsum animi deleniti fugiat. Ex, veniam?</p>
-            <p><a href="#" class="btn btn-primary btn-sm">Shop Now</a></p>
+            <h4>Tüm ürünlerde 50%'ye varan indirimler</h4>
+            <p class="post-meta mb-4">By <a href="#">Alp Tarık Salman</a> <span class="block-8-sep">&bullet;</span> 21 Mayıs 2024</p>
+            <p>Seçili ürünlerde indirim fırsatı</p>
+            <p><a href="{{route('indirimdekiurunler')}}" class="btn btn-primary btn-sm">İndirimdeki Ürünler</a></p>
           </div>
         </div>
       </div>
