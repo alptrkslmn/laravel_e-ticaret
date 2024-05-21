@@ -156,7 +156,7 @@
                   </figure>
                   <div class="block-4-text p-4">
                     <h3><a href="#">Corater</a></h3>
-                    <p class="mb-0">Finding perfect products</p>
+                    <p class="mb-0">En iyi ürünü bul</p>
                     <p class="text-primary font-weight-bold">$50</p>
                   </div>
                 </div>
