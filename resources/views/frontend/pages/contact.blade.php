@@ -17,6 +17,11 @@
           </div>
           <div class="col-md-7">
 
+              @if(session()->has('message'))
+                  <div class="alert alert-success">
+                      {{ session()->get('message') }}
+                  </div>
+              @endif
             <form action="{{route('iletisim.kaydet')}}" method="post">
             @csrf
               <div class="p-3 p-lg-5 border">
