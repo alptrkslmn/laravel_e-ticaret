@@ -18,7 +18,6 @@ class SiteSettingMiddleware
     {
        $settings = SiteSetting::pluck('data', 'name')->toArray();
         view()->share(['settings'=>$settings]);
-
         return $next($request);
     }
 }
