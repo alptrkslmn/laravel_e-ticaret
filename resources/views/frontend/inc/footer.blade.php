@@ -19,9 +19,9 @@
           <div class="block-5 mb-5">
             <h3 class="footer-heading mb-4">İletişim</h3>
             <ul class="list-unstyled">
-              <li class="address">Kemal Türkler Mah. Karadeniz Sok. No:16/3 Sancaktepe-İstanbul</li>
-              <li class="phone"><a href="tel://00905454661954">+90 5454661954</a></li>
-              <li class="email">alptarik.salman@gmail.com</li>
+              <li class="address">{{$settings['adres']}}</li>
+              <li class="phone"><a href="tel://{{str_replace(' ','',$settings['phone'])}}">{{$settings['phone']}}</a></li>
+              <li class="email">{{$settings['email']}}</li>
             </ul>
           </div>
         </div>
