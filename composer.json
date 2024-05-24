@@ -11,6 +11,7 @@
         "laravel/tinker": "^2.9"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.13",
         "fakerphp/faker": "^v1.23.1",
         "laravel/pint": "^v1.16.0",
         "laravel/sail": "^v1.29.2",
