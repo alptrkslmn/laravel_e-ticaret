@@ -14,7 +14,7 @@ class ProductSeeder extends Seeder
     public function run(): void
     {
         Product::create([
-            'name' => 'Ürün 1',
+            'name' => 'Urun 1',
             'image' => 'images/shoe_1.jpg',
             'category_id' => 1,
             'short_text' => 'Kasabilgi',
@@ -28,7 +28,7 @@ class ProductSeeder extends Seeder
 
         {
             Product::create([
-                'name' => 'Ürün 2',
+                'name' => 'Urun 2',
                 'image' => 'images/cloth_2.jpg',
                 'category_id' => 2,
                 'short_text' => 'Kasabilgi 2',
