@@ -58,7 +58,7 @@
                 </div>
                 <div class="form-group row">
                   <div class="col-lg-12">
-                      <button type="submit"class="btn btn-primary btn-lg btn-block">Mesajınızı Gönderin</button>
+                      <button type="submit"class="btn btn-primary btn-lg btn-block">Gönder</button>
                   </div>
                 </div>
               </div>
