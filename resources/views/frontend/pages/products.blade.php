@@ -150,7 +150,7 @@
                       <img src="images/women.jpg" alt="" class="img-fluid">
                     </figure>
                     <div class="text">
-                      <span class="text-uppercase">Collections</span>
+                      <span class="text-uppercase">Koleksiyonlar</span>
                       <h3>Women</h3>
                     </div>
                   </a>
