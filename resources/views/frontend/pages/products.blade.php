@@ -161,8 +161,8 @@
                         <img src="{{asset('/')}}images/children.jpg" alt="" class="img-fluid">
                     </figure>
                     <div class="text">
-                      <span class="text-uppercase">Collections</span>
-                      <h3>Children</h3>
+                        <span class="text-uppercase">Koleksiyonlar</span>
+                        <h3>Çocuk</h3>
                     </div>
                   </a>
                 </div>
@@ -173,7 +173,7 @@
                     </figure>
                     <div class="text">
                         <span class="text-uppercase">Koleksiyonlar</span>
-                      <h3>Men</h3>
+                        <h3>Erkek</h3>
                     </div>
                   </a>
                 </div>
