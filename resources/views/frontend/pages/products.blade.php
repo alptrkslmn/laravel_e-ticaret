@@ -105,13 +105,13 @@
             <div class="mb-4">
                 <h3 class="mb-3 h6 text-uppercase text-black d-block">Ölçü</h3>
               <label for="s_sm" class="d-flex">
-                <input type="checkbox" id="s_sm" class="mr-2 mt-1"> <span class="text-black">Small (2,319)</span>
+                  <input type="checkbox" id="s_sm" class="mr-2 mt-1"> <span class="text-black">Küçük (2,319)</span>
               </label>
               <label for="s_md" class="d-flex">
-                <input type="checkbox" id="s_md" class="mr-2 mt-1"> <span class="text-black">Medium (1,282)</span>
+                  <input type="checkbox" id="s_md" class="mr-2 mt-1"> <span class="text-black">Orta (1,282)</span>
               </label>
               <label for="s_lg" class="d-flex">
-                <input type="checkbox" id="s_lg" class="mr-2 mt-1"> <span class="text-black">Large (1,392)</span>
+                  <input type="checkbox" id="s_lg" class="mr-2 mt-1"> <span class="text-black">Büyük (1,392)</span>
               </label>
             </div>
 
